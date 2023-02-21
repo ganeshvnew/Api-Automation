@@ -14,7 +14,6 @@ namespace APIAutomation.Test
         [Description("Get all user details")]
         [Author("Ganesh")]
         [Category("GET")]
-
         public async Task GetAllUsers()
         {
             await rest.getApiUsers();
@@ -64,5 +63,15 @@ namespace APIAutomation.Test
         {
             await rest.requestNotFound();
         }
+
+        [Test]
+        [Description("Negative scenario - Invalid user")]
+        [Author("Ganesh")]
+        [Category("GET")]
+        public async Task NegativeScenarioInvalidUser()
+        {
+            await rest.createInvalidUser();
+        }
+
     }
 }

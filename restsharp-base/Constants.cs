@@ -23,5 +23,9 @@ namespace APIAutomation.RestSharpBase
         public static String USERNAME_PATCH = PropertyReader.GetPropertyValue("username_patch");
         public static String JOBTITLE_PATCH = PropertyReader.GetPropertyValue("jobtitle_patch");
         public static String USER_ID = PropertyReader.GetPropertyValue("user_id");
+        public static String FIRSTNAME = PropertyReader.GetPropertyValue("firstname");
+        public static String LASTNAME = PropertyReader.GetPropertyValue("lastname");
+
+
     }
 }
