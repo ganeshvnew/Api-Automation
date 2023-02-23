@@ -16,3 +16,11 @@
 # Test Result
 1. Test reports will be generated under the folder below after each successful test execution
  \Api-Automation-Test\html-report\index.html 
+
+# Test Execution
+
+Method-1: Run the below batch file (located in project main folder) in command prompt
+**api-automation.bat**
+
+Method-2: Open Developer Powershell in Visual Studio and run the following command
+dotnet test "Api-Automation-Test"
