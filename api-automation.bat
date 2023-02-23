@@ -1,0 +1,1 @@
+dotnet test "..\Api-Automation-Test"
